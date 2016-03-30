@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour {
     float xmax;
     public GameObject projectile;
     public float projectileSpeed;
+    public float health = 250f;
 
     public float fireTime = 0.00001f;
     public float fireRate = 0.2f;
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour {
 
     void Fire()
     {
+        Vector3 offset = new Vector3(0, 1, 0);
         GameObject beam = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
         Rigidbody2D rigiBeam = beam.GetComponent<Rigidbody2D>();
         rigiBeam.velocity = new Vector3(0, projectileSpeed, 0);
@@ -59,4 +61,21 @@ public class PlayerController : MonoBehaviour {
 
         transform.position = new Vector3(newX, transform.position.y, transform.position.z);
 	}
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+
+        Projectile proj = coll.gameObject.GetComponent<Projectile>();
+        if (proj)
+        {
+            health -= proj.GetDamage();
+            if (health <= 0)
+            {
+                proj.Hit();
+                Destroy(gameObject);
+            }
+
+        }
+
+    }
 }
