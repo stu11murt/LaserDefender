@@ -24,3 +24,24 @@ C:\Users\DBDMobile\Documents\Visual Studio 2013\Projects\LaserDefender\Temp\bin\
 C:\Users\DBDMobile\Documents\Visual Studio 2013\Projects\LaserDefender\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\DBDMobile\Documents\Visual Studio 2013\Projects\LaserDefender\obj\Debug\Assembly-CSharp.dll
 C:\Users\DBDMobile\Documents\Visual Studio 2013\Projects\LaserDefender\obj\Debug\Assembly-CSharp.pdb
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\UnityEditor.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\UnityEngine.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\UnityEngine.xml
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\UnityEditor.xml
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\obj\Debug\Assembly-CSharp.dll
+C:\Users\stuartmurton\Documents\GitHub\LaserDefender\obj\Debug\Assembly-CSharp.pdb
