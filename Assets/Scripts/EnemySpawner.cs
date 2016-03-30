@@ -38,10 +38,14 @@ public class EnemySpawner : MonoBehaviour {
 
         float rightEdgoeOfFormat = transform.position.x + (width/2);
         float leftEdgoeOfFormat = transform.position.x - (width/2) ;
-        if(leftEdgoeOfFormat < xmin || rightEdgoeOfFormat > xmax)
+        if(leftEdgoeOfFormat <= xmin )
         {
-            movingRight = !movingRight;
+            movingRight = false;
         }
+	    else if (rightEdgoeOfFormat >= xmax)
+	    {
+            movingRight = true;
+	    }
 	} 
 
     void OnDrawGizmos()
