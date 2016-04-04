@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour {
     public float fireTime = 0.00001f;
     public float fireRate = 0.2f;
 
+    public AudioClip zap;
+
 	// Use this for initialization
 	void Start () {
         float distance = transform.position.z - Camera.main.transform.position.z;
@@ -20,6 +22,7 @@ public class PlayerController : MonoBehaviour {
         Vector3 rightMost = Camera.main.ViewportToWorldPoint(new Vector3(1, 0, distance));
         xmin = leftMost.x + padding;
         xmax = rightMost.x - padding;
+        
 	}
 
     void Fire()
@@ -28,6 +31,7 @@ public class PlayerController : MonoBehaviour {
         GameObject beam = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
         Rigidbody2D rigiBeam = beam.GetComponent<Rigidbody2D>();
         rigiBeam.velocity = new Vector3(0, projectileSpeed, 0);
+        AudioSource.PlayClipAtPoint(zap, transform.position);
     }
 
 	// Update is called once per frame
